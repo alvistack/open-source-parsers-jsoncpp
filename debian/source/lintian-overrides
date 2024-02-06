@@ -1,0 +1,4 @@
+jsoncpp source: file-without-copyright-information
+jsoncpp source: no-debian-changes
+jsoncpp source: not-binnmuable-any-depends-any
+jsoncpp source: weak-library-dev-dependency
