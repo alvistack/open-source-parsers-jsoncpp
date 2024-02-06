@@ -9,7 +9,7 @@ project(
   # 2. /include/json/version.h
   # 3. /CMakeLists.txt
   # IMPORTANT: also update the SOVERSION!!
-  version : '1.9.4',
+  version : '1.9.5',
   default_options : [
     'buildtype=release',
     'cpp_std=c++11',
@@ -50,6 +50,7 @@ jsoncpp_lib = library(
     'src/lib_json/json_value.cpp',
     'src/lib_json/json_writer.cpp',
   ]),
+  version: '1.9.5',
   soversion : 25,
   install : true,
   include_directories : jsoncpp_include_directories,

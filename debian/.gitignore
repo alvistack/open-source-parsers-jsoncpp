@@ -1,0 +1,7 @@
+*.substvars
+*debhelper*
+.debhelper
+files
+libjsoncpp-dev
+libjsoncpp25
+tmp
