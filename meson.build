@@ -51,6 +51,7 @@ jsoncpp_lib = library(
     'src/lib_json/json_value.cpp',
     'src/lib_json/json_writer.cpp',
   ]),
+  version: '1.9.7',
   soversion : 27,
   install : true,
   include_directories : jsoncpp_include_directories,
